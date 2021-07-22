@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6.title-link{
+    vertical-align: -webkit-baseline-middle;
+    font-size: 1.13rem;
+    padding-left: 5px;
+    font-weight: 700;
+    color: #453F7C;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.bg-blue {
+    background-color: #EDF9FD !important;
+}
+
+ul.navbar-nav {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #B0B0B2;
+}
+
+li.nav-item {
+    padding-right: 1.5rem;
+}
+
+.text-nav {
+    line-height: 2.2;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #596DCC;
+    text-decoration: none;
+ }
+ 
+ .cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.5px;
+    background: #596DCC;
+    transition: width .3s;
+ }
+ 
+ .cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+ }
+
+.btn-nav {
+    padding-top: 10px;
+}
+
+.btn-outline-primary {
+    font-size: 0.75rem;
+    color: #596DCC !important;
+    border-color: #596DCC !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.btn-primary {
+    font-size: 0.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff !important;
+    background-color: #596DCC !important;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.space-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h1.header-title {
+    font-weight: 800;
+    font-size: 3.2rem;
+    color: #453F7C;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+p.header-text {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #B0B0B2;
+    margin-bottom: 40px;
+}
+
+.btn-header-1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: #00D5F4;
+    color: #fff;
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: .3s;
+}
+
+.btn-header-2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #313131;
+    border: 1px solid #00D5F4;
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn-header-1:hover {
+    color: #fff;
+    box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+.btn-header-2:hover {
+    box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    background-image: url("../img/img1.svg");
+    height: 637px;
+}
+
+h1.section-title {
+    position: relative;
+    font-size: 2rem;
+    color: #453F7C !important;
+    font-weight: 800;
+    z-index : 1;
+}
+
+h1.section-title::before{
+    content: url('../img/PreTitle.svg');
+    position: absolute;
+    z-index: -1;
+    margin-left: -28px;
+    margin-top: -22px;
+}
+
+p.section-text {
+    font-size: 1.2rem;
+    color: #313131;
+    text-align: center;
+}
+
+.card-plus {
+    border: solid 1px #00D5F4;
+    background-color: #fff;
+    height: 255px;
+    width: auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h3.title-card {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #453F7C;
+}
+
+.img-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-col {
+    margin-right: -1rem;
+}
+
+.title-section {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #B0B0B2;
+}
+
+.text-link {
+    color: #453F7C;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.text-link:hover {
+    color: #596DCC;
+}
+
+.bg-footer {
+    background-color: #453F7C !important;
+}
+
+.text-footer {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.box-sosmed {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.card-sosmed {
+    text-decoration: none;
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 5px;
+}
+
+.card-sosmed:hover {
+    text-decoration: none;
+}
+
+.title-work {
+    color: #313131;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.box-work {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.box-1 {
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+.sub-title-work {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #616161;
+    font-weight: 600;
+    
+}
+
+.text-work {
+    display: inline-block;
+    font-size: 1rem;
+    color: #B0B0B2;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+label, .modal-title {
+    font-weight: 700;
+}
